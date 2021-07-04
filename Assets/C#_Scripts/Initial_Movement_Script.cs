@@ -13,7 +13,7 @@ public class Initial_Movement_Script : MonoBehaviour
     {
         if (counter <= 300)
         {
-            transform.Translate(Vector3.back * Time.deltaTime * speedIndex);
+            transform.Translate(Vector3.forward * Time.deltaTime * speedIndex);
 
             counter++;
         }
